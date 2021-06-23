@@ -24,7 +24,7 @@ pipeline {
         stage('Get Code') {
             steps {
                 //git branch: 'dev', url: 'https://github.com/macmaj-panda/panda_application.git'
-                checout scm
+                checkout scm
             }
         }
         
